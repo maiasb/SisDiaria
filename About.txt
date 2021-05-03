@@ -1,0 +1,19 @@
+            this.Controls.Add(this.btbuscadiaria);
+            this.Controls.Add(this.btbuscaservidor);
+            this.Controls.Add(this.btcadservidor);
+
+
+            this.Controls.Add(this.adcdiaria);
+            this.Controls.Add(this.voltar);
+            this.Controls.Add(this.delete);
+            this.Controls.Add(this.editar);
+            this.Controls.Add(this.ok);
+            this.Controls.Add(this.lblot);
+            this.Controls.Add(this.cbolot);
+            this.Controls.Add(this.lbcargo);
+            this.Controls.Add(this.txtcargo);
+            this.Controls.Add(this.txtmat);
+            this.Controls.Add(this.txtnome);
+            this.Controls.Add(this.lbmat);
+            this.Controls.Add(this.lbnome);
+            this.Controls.Add(this.adcbanco);
