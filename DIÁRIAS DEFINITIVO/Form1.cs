@@ -14,7 +14,7 @@ namespace DIÁRIAS_DEFINITIVO
 {
     public partial class Form1 : Form
     {
-        SqlConnection conn = new SqlConnection(@"Data Source=DESKTOP-0S0H478\SQLEXPRESS;Initial Catalog=DBDiarias;Integrated Security=True");
+        SqlConnection conn = new SqlConnection(System.Configuration.ConfigurationManager.ConnectionStrings["PC_MAIA"].ConnectionString);
 
         //INICIA O FORM
         public Form1()
